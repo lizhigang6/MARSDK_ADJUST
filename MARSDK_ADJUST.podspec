@@ -13,8 +13,9 @@ Pod::Spec.new do |s|
   s.author           = { 'izhigang6@163.com' => 'lizhigang6@163.com' }
   s.source           = { :git => 'https://github.com/lizhigang6/MARSDK_ADJUST.git', :tag => s.version.to_s }
   s.vendored_libraries =  'MARSDK_ADJUST/SDK/libMARSDK_ADJUST.a'
-  s.ios.deployment_target = '10.0'
-  s.vendored_frameworks = 'MARSDK_ADJUST/Classes/Bugly.framework'
+  s.ios.deployment_target = '12.0'
+  s.vendored_frameworks = 'MARSDK_ADJUST/Classes/AdjustSdk.framework'
+  s.frameworks = "AdSupport","StoreKit","WebKit","AdServices"
   s.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64' }  
 
 end
