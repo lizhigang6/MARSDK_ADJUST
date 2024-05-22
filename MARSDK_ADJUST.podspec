@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'MARSDK_ADJUST'
-  s.version          = '5.0.1'
+  s.version          = '5.0.3'
   s.summary          = '火星人打包工具'
 
 
